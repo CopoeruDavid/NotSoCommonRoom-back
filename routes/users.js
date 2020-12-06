@@ -17,6 +17,7 @@ const uri =
   "mongodb+srv://DavidCopoeru:davidutu123@cluster0.8lwht.mongodb.net/HousingSlack?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
+
 const saltRounds = 10;
 
 let users = [
